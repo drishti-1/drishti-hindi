@@ -519,7 +519,7 @@ select:visited {
 }
 
 .apbc-nav-menu ul li a {
-  padding: 26px 15px;
+  padding: 26px 10px;
   color: #ffffff;
   font-weight: 500;
   text-transform: capitalize;
@@ -1161,7 +1161,7 @@ select:visited {
   top: -45px;
   left: 25px;
   padding: 25px 30px;
-  max-width: 352px;
+  max-width: 359px;
   border-radius: 20px;
   position: relative;
   background-color: #fff;
@@ -1262,16 +1262,18 @@ footer{
 .footer-block p{
     margin-bottom: 0px;
 }
-.footer-block p a{
+.footer-block a{
+	font-size: 20px;
+	line-height: 26px;
     color: #fff;
     transition-duration: 0.3s;
 }
-.footer-block p a:hover{
+.footer-block a:hover{
     color: #ffc400;
 }
 
 
-.footer-social {
+/*.footer-social {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -1286,10 +1288,10 @@ footer{
 }
 .footer-social a:hover{
     color: #fff;
-}
+}*/
 
 
-.quick-enquiry-right {padding: 25px; padding-bottom: 15px; background:#FFF;	text-align:center; border-radius: 20px;}
+.quick-enquiry-right {padding: 15px; padding-bottom: 15px; background:#FFF;	text-align:center; border-radius: 20px;}
 .registration_form {position: fixed; top: 220px; right: -2px; z-index: 9; background: #000;}
 
 /*MOdal Popup*/
@@ -1312,8 +1314,8 @@ footer{
 .enroll_modal label a{ color:#ec1d07; text-decoration:underline;}
 .enroll_modal label a:hover{ text-decoration:none;}
 .enroll_modal .btn{ width:100%;}
-.enroll_modal h2{font-size: 20px; margin-bottom: 5px;  font-weight:700; color:#252525; line-height:30px; margin-bottom:10px;}
-.enroll_modal p{font-size: 17px; font-weight:300; color:#252525; margin-top:0px; margin-bottom:15px; line-height:22px;}
+.enroll_modal h2{font-size: 18px; margin-bottom: 5px;  font-weight:700; color:#252525; line-height:26px; margin-bottom:10px;}
+.enroll_modal p{font-size: 16px; font-weight:300; color:#252525; margin-top:0px; margin-bottom:15px; line-height:22px;}
 
 .btn{ border-radius:5px !important; background-color:#f8c301; padding:0 20px; color:#000; letter-spacing:1px; text-transform:uppercase; font-size:15px; line-height:40px; border:none; font-weight:normal; margin:auto;}
 .btn:hover{ background-color:#01458E; color:#fff;}
@@ -1349,7 +1351,7 @@ footer{
 }
 .welcome-section .content p {
 	font-size:26px;
-	line-height:34px;
+	line-height:40px;
 	color:#343333;
 }
 
@@ -1569,3 +1571,21 @@ padding-right: 0%; padding-bottom:3%;}
 .volunteer_gallery{ position:relative;}
 .volunteer_gallery_content{ position:absolute; background:#1a2d62; bottom:0; padding:10px 20px;}
 .volunteer_gallery_content h3{ font-size:16px; color:#fff; margin-bottom:0;}
+
+
+#spopup{
+	background:#fff;
+	border-radius:9px;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	-moz-box-shadow:inset 0 0 3px #333;
+	-webkit-box-shadow:inset 0 0 3px #333;
+	box-shadow:inner 0 0 3px #333;
+	padding:12px 5px 12px 5px;
+	width:300px;
+	position:fixed;
+	bottom:13px;
+	right:2px;
+	display:none;
+	z-index:999;
+}
